@@ -20,12 +20,13 @@ public class ComputerScienceStudent implements Citizen{
         this.identityCardNumber = identityCardNumber;
     }
 
-    public String getName() {
-        return name;
-    }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setAdress(String adress) {
@@ -36,14 +37,15 @@ public class ComputerScienceStudent implements Citizen{
         this.identityCardNumber = identityCardNumber;
     }
 
+
     @Override
-    public void getAdress(String adress) {
-        return adress;
+    public String getAdress(String adress) {
+        return null;
     }
 
     @Override
-    public void getIdentityCardNumber(int number) {
-            return identityCardNumber;
+    public int getIdentityCardNumber(int number) {
+        return 0;
     }
 
     @Override
@@ -74,7 +76,5 @@ public class ComputerScienceStudent implements Citizen{
                 ", identityCardNumber=" + identityCardNumber +
                 '}';
     }
-
-
 }
 

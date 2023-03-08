@@ -26,14 +26,21 @@ public class BiologyStudent implements Citizen {
         this.name = name;
     }
 
+    public String getAdress() {
+        return adress;
+    }
+
     public void setAdress(String adress) {
         this.adress = adress;
+    }
+
+    public int getIdentityCardNumber() {
+        return identityCardNumber;
     }
 
     public void setIdentityCardNumber(int identityCardNumber) {
         this.identityCardNumber = identityCardNumber;
     }
-
     @Override
     public String getAdress(String adress) {
         return adress;
@@ -41,10 +48,8 @@ public class BiologyStudent implements Citizen {
 
     @Override
     public int getIdentityCardNumber(int number) {
-        return number;
+        return identityCardNumber;
     }
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -73,7 +78,6 @@ public class BiologyStudent implements Citizen {
                 ", identityCardNumber=" + identityCardNumber +
                 '}';
     }
-
 
 
 }
