@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23119b3d-8d34-4b99-95e8-66435acd8d38" name="Changes" comment="Aufgabe Interface Objetkorientierung">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BiologyStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BiologyStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComputerScienceStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComputerScienceStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678265890303</updated>
-      <workItem from="1678265892295" duration="6534000" />
+      <workItem from="1678265892295" duration="7470000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe Interface Objetkorientierung">
       <created>1678272674273</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678272674273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aufgabe Interface Objetkorientierung">
+      <created>1678273545439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678273545439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
